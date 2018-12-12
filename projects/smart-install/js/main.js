@@ -1,0 +1,2 @@
+jQuery(function(s){s(".home-slider").slick({arrows:!0,dots:!0,autoplay:!0,autoplaySpeed:1e4}),s(".small-thumbs").slick({slidesToShow:4,slidesToScroll:1,arrows:!0,asNavFor:".big-thumbs",focusOnSelect:!0}),s(".big-thumbs").slick({slidesToShow:1,slidesToScroll:1,arrows:!1,asNavFor:".small-thumbs",responsive:[{breakpoint:510,settings:{dots:!0}}]}),s(".mobile-toggler").click(function(o){s(this).toggleClass("open"),s(".mobile-menu").toggleClass("open"),s("body").toggleClass("ovh")})});
+//# sourceMappingURL=main.js.map

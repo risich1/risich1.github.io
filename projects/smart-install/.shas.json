@@ -1,0 +1,116 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "about.html",
+        "sha": "d7b30499eb52e3e32b04c4d5835517c8422cd178"
+      }
+    ],
+    "outputSha": "ccb140d546793880718bf5f2b0a0ed10bc9887b9",
+    "input": "about.html",
+    "output": [
+      "about.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "catalog.html",
+        "sha": "21b847511cf54601b20d4db116ceed4da28e2b5a"
+      }
+    ],
+    "outputSha": "151eda7d48993beef710ff070e8ea17b5235b205",
+    "input": "catalog.html",
+    "output": [
+      "catalog.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "ce04f402f69c59ce546ebb1d466c910743b30dcb"
+      }
+    ],
+    "outputSha": "9d0fc672f53e62ff43d631d1996b18aa8c5b77a7",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "news.html",
+        "sha": "b30f6254ee8a7ad649295e0c2ec06f78ffdcca58"
+      }
+    ],
+    "outputSha": "d350e7daca968515b858aff5b3fde73c4b441612",
+    "input": "news.html",
+    "output": [
+      "news.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "product.html",
+        "sha": "196d675e9ce7c7e245b1678be74449c567234eb7"
+      }
+    ],
+    "outputSha": "17977f17b9ba7c26e7cdd44cb90e016acf042d2a",
+    "input": "product.html",
+    "output": [
+      "product.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "where.html",
+        "sha": "a0f99ae797e7d1cb857abd8690f23981ab8ba1ad"
+      }
+    ],
+    "outputSha": "b0b99f527b54e102166bfabfbc8e096cd5e3d8b5",
+    "input": "where.html",
+    "output": [
+      "where.html"
+    ]
+  },
+  {
+    "type": "less@2,7,3::map::minify",
+    "inputSha": [
+      {
+        "file": "css/main.less",
+        "sha": "9c27c9e15707c12f2c1ea20ba041d6670bc15164"
+      }
+    ],
+    "outputSha": "ef517e9a142c4cfe135983a3acad88567c138a83",
+    "input": "css/main.less",
+    "output": [
+      "css/main.css.map",
+      "css/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "js/main.js",
+        "sha": "39d8adfa8e2075b1fc3f10413cb777844cb14d92"
+      }
+    ],
+    "outputSha": "63ef264324d3a49214b021f056c46355a256b093",
+    "input": "js/main.js",
+    "output": [
+      "js/main.js.map",
+      "js/main.js"
+    ]
+  }
+]
