@@ -92,13 +92,14 @@ function main()
     init_sliders();
     toggle_mob_menu('.mobile-toggler' , 'header .row-2');
     header_fixed(0 , 'fixed');
-    hide_preloader('#preloader' , 'ovh' , 'done');
+
+    window.onload = function(e){
+      hide_preloader('#preloader' , 'ovh' , 'done');
+    }; 
 }
 
+main();
 
-window.onload = function(e){
-  main();
-};
 
 
 

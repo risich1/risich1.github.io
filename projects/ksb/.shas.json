@@ -3,20 +3,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "contacts.html",
-        "sha": "80867f57a511bb63caa3686a5c8aaffdc87008a0"
-      }
-    ],
-    "outputSha": "11554b99f273bb51f56c284fab652f34c1e9aaa4",
-    "input": "contacts.html",
-    "output": [
-      "contacts.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "about.html",
         "sha": "85d775176bfc7c77e1cf6abd226657a3da4bdfc4"
       }
@@ -31,14 +17,14 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "news.html",
-        "sha": "ad847cbc2ad5515d2e9e9f6f6ce893cf407c2782"
+        "file": "contacts.html",
+        "sha": "80867f57a511bb63caa3686a5c8aaffdc87008a0"
       }
     ],
-    "outputSha": "e305b63ffbe2bc3980b31a669cb73c7a4714b851",
-    "input": "news.html",
+    "outputSha": "11554b99f273bb51f56c284fab652f34c1e9aaa4",
+    "input": "contacts.html",
     "output": [
-      "news.html"
+      "contacts.html"
     ]
   },
   {
@@ -53,6 +39,20 @@
     "input": "index.html",
     "output": [
       "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "news.html",
+        "sha": "ad847cbc2ad5515d2e9e9f6f6ce893cf407c2782"
+      }
+    ],
+    "outputSha": "e305b63ffbe2bc3980b31a669cb73c7a4714b851",
+    "input": "news.html",
+    "output": [
+      "news.html"
     ]
   },
   {
@@ -102,10 +102,10 @@
     "inputSha": [
       {
         "file": "scripts/main.js",
-        "sha": "d7d1f32e441373612f4637f1966919ab5e506184"
+        "sha": "276fb42421bbfb9ed309c92e77ca759530d18166"
       }
     ],
-    "outputSha": "9029f63f9b69b68e00e12e0352ad6ade476ddd7a",
+    "outputSha": "17218d3a10df8ceed99b4a0675db83cd84bd4ed9",
     "input": "scripts/main.js",
     "output": [
       "scripts/main.js.map",
