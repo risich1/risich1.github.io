@@ -1,0 +1,130 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "contacts.html",
+        "sha": "80867f57a511bb63caa3686a5c8aaffdc87008a0"
+      }
+    ],
+    "outputSha": "11554b99f273bb51f56c284fab652f34c1e9aaa4",
+    "input": "contacts.html",
+    "output": [
+      "contacts.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "about.html",
+        "sha": "85d775176bfc7c77e1cf6abd226657a3da4bdfc4"
+      }
+    ],
+    "outputSha": "1e100bf1fc559fe6ebae323c4ed1392071ba3de2",
+    "input": "about.html",
+    "output": [
+      "about.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "news.html",
+        "sha": "ad847cbc2ad5515d2e9e9f6f6ce893cf407c2782"
+      }
+    ],
+    "outputSha": "e305b63ffbe2bc3980b31a669cb73c7a4714b851",
+    "input": "news.html",
+    "output": [
+      "news.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "6c974252ed953e7844e1b3e860516d38e34c30b8"
+      }
+    ],
+    "outputSha": "8390376e42cb4cd514cea38525810eb58b1c0b4d",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "services.html",
+        "sha": "a64f0c56e3201938e7f81027a6dad08be43c9df6"
+      }
+    ],
+    "outputSha": "7f29a3376aca59a5da3bf127157bfc626cd77742",
+    "input": "services.html",
+    "output": [
+      "services.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "single-news.html",
+        "sha": "3299083eef2b617de983f47b951842e68721dd32"
+      }
+    ],
+    "outputSha": "40f9e63ee52b6d01de1d93b7d5452d048fc9b7ca",
+    "input": "single-news.html",
+    "output": [
+      "single-news.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "single.html",
+        "sha": "a6578511a1dc2de2d467b35606c2cc88a7a587a8"
+      }
+    ],
+    "outputSha": "7dade6d2c2b8b7099da6e25039e7e7403512edb6",
+    "input": "single.html",
+    "output": [
+      "single.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "d7d1f32e441373612f4637f1966919ab5e506184"
+      }
+    ],
+    "outputSha": "9029f63f9b69b68e00e12e0352ad6ade476ddd7a",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.11.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "241f10f3f83a48e9e43b6ea68c9b2b5bef69a97d"
+      }
+    ],
+    "outputSha": "dc6a390b1a0d0f9078e7929222a6d87736576f0f",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  }
+]
