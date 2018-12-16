@@ -1,0 +1,158 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "about.html",
+        "sha": "bf27f0e0d3bd7e4684b5f909b317d31ef13932b6"
+      }
+    ],
+    "outputSha": "f433725400d86c65aee05c09bf992e21e586e810",
+    "input": "about.html",
+    "output": [
+      "about.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "cafe-single.html",
+        "sha": "32a4b1ad813ab8337cbb4597232b093f181091ad"
+      }
+    ],
+    "outputSha": "848135b6f7699d1a533cb00a7383a29568d9eb36",
+    "input": "cafe-single.html",
+    "output": [
+      "cafe-single.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "contacts.html",
+        "sha": "f721678866060d47b5c965aa81400a8f6c1a116d"
+      }
+    ],
+    "outputSha": "ba4fe104c5d73f6185a915e9f977c243f4a3a892",
+    "input": "contacts.html",
+    "output": [
+      "contacts.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "cofee.html",
+        "sha": "d042f255b34986ed138471069a775329d23a8c57"
+      }
+    ],
+    "outputSha": "3276343809ed7ecf823a8f70e1ec2dbbe1f96181",
+    "input": "cofee.html",
+    "output": [
+      "cofee.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "cafe.html",
+        "sha": "9b99113c5a351b314c743035b70c5b71f4c33d39"
+      }
+    ],
+    "outputSha": "86893c5c4ce2cc7453ea40f1c3d42a839a598000",
+    "input": "cafe.html",
+    "output": [
+      "cafe.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "0c1f02b5fa72469ae59535a63710e82de2ba1b21"
+      }
+    ],
+    "outputSha": "95bac29413560f1a0ba975544d4a1bf7592f5cca",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "product.html",
+        "sha": "9c752ddb5d76f76e6dbb1136709a2da9aa5b2beb"
+      }
+    ],
+    "outputSha": "e1f4dd5971a4d731cd2f653c23d725c15f2e864e",
+    "input": "product.html",
+    "output": [
+      "product.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "sale-single.html",
+        "sha": "ccc8ac792fe2a6768f9b6968f89ac7e64f037415"
+      }
+    ],
+    "outputSha": "cdf358de39d2fa7749c15115c477a5a6cb819cca",
+    "input": "sale-single.html",
+    "output": [
+      "sale-single.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "sale.html",
+        "sha": "888ab1805635c9dc4ba392dbccfde3472d350ec1"
+      }
+    ],
+    "outputSha": "a79cd92865d929a8518e86003a0520534fa025f5",
+    "input": "sale.html",
+    "output": [
+      "sale.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "867de127d38c8ed6508c62336a15789284c1b685"
+      }
+    ],
+    "outputSha": "8d7f178ccf7e82932161520ce0feb80c8d80c8aa",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.10.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "4dd2469c36dd5412b3c41963de21c3c3d63665b5"
+      }
+    ],
+    "outputSha": "d2d91e47e7d7aa88eb0180e69f7e83d72959ea53",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  }
+]
