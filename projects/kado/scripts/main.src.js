@@ -11,6 +11,36 @@ jQuery(function($){
     });
   }
 
+  function initMenu(menu)
+  {
+
+      $(menu + '>li').each(function(index, el) {
+          if($(this).is(':has(ul)'))
+          {
+              $(menu + '>li>ul>li').each(function(index, el) {
+                  if($(this).is(':has(ul)'))
+                  {
+                      $(this).addClass('sub-dropdown');
+                  }
+              });
+              $(this).addClass('dropdown');
+          }
+      });
+
+
+
+      // $('.dropdown>a').click(function(e){
+      //     e.preventDefault();
+      //     var thisUl = $(this).closest('.dropdown').find('ul');
+      //     var uls = $(menu + ' .dropdown').children('ul').not(thisUl);
+
+      //     uls.slideUp(300);
+      //     thisUl.slideToggle(300);
+      // });
+  }
+
+  initMenu('.nav-menu>ul');
+
 
 
   function tabs(tabs , tabs_content)
