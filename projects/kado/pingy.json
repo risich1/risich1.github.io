@@ -1,5 +1,5 @@
 {
-	"name": "new",
+	"name": "front",
 	"exportDir": "dist",
 	"minify": true,
 	"compile": true,
@@ -10,5 +10,5 @@
 			"type": "dir"
 		}
 	],
-	"port": 6260
+	"port": 41366
 }
