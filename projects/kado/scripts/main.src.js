@@ -85,6 +85,8 @@ jQuery(function($){
     up();
   });
 
+
+
   toggle_mob_menu('.mobile-toggler' , 'header .row-3');
   header_fixed(210 , 'scroll');
   tabs('.tabs .tab' , '.tabs-content .tab-content');
@@ -93,6 +95,58 @@ jQuery(function($){
   var slider = $('.slider');
   var tab_slider = $('.tab-slider');
   var testim_slider = $('.testim-slider');
+  var sert_slider = $('.sert-slider');
+  var video_slider_big = $('.video-slider-big');
+  var video_slider_small = $('.video-slider-small');
+
+  sert_slider.slick({
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          dots: true
+        }
+      }
+    ]
+  });
+
+  video_slider_big.slick({
+    arrows: false,
+    asNavFor: '.video-slider-small'
+  });
+  
+  video_slider_small.slick({
+    slidesToShow: 5,
+    asNavFor: '.video-slider-big',
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 4,
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          arrows: false
+        }
+      }
+    ]
+  });
 
   slider.slick({
     dots: true,
