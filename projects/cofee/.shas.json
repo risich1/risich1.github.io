@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "about.html",
-        "sha": "bf27f0e0d3bd7e4684b5f909b317d31ef13932b6"
+        "sha": "109979cd2d67f438e08824a8dfe9a2751e28e170"
       }
     ],
-    "outputSha": "f433725400d86c65aee05c09bf992e21e586e810",
+    "outputSha": "4005aea95dfb6508069b9a4c9422d7b41c9bebb0",
     "input": "about.html",
     "output": [
       "about.html"
@@ -17,25 +17,11 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "cafe-single.html",
-        "sha": "32a4b1ad813ab8337cbb4597232b093f181091ad"
-      }
-    ],
-    "outputSha": "848135b6f7699d1a533cb00a7383a29568d9eb36",
-    "input": "cafe-single.html",
-    "output": [
-      "cafe-single.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "contacts.html",
-        "sha": "f721678866060d47b5c965aa81400a8f6c1a116d"
+        "sha": "d38a00e1842a0b1fab8d5e346a0d584062b8ab0f"
       }
     ],
-    "outputSha": "ba4fe104c5d73f6185a915e9f977c243f4a3a892",
+    "outputSha": "2e37231eca57cc274df8b7ff49a2e09a1e8bfb54",
     "input": "contacts.html",
     "output": [
       "contacts.html"
@@ -45,11 +31,25 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "cofee.html",
-        "sha": "d042f255b34986ed138471069a775329d23a8c57"
+        "file": "cafe-single.html",
+        "sha": "eb44b9762a26263443d3d58f725bcd5bd4971e6f"
       }
     ],
-    "outputSha": "3276343809ed7ecf823a8f70e1ec2dbbe1f96181",
+    "outputSha": "63b36aa876e23eb86b753f582c6875cf4dcc2667",
+    "input": "cafe-single.html",
+    "output": [
+      "cafe-single.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "cofee.html",
+        "sha": "f1711c2dab8d40a4fc2375f0b0b5b076bedd87c9"
+      }
+    ],
+    "outputSha": "3cfd4769852884ba8674af578eaca45eef5cd6aa",
     "input": "cofee.html",
     "output": [
       "cofee.html"
@@ -60,10 +60,10 @@
     "inputSha": [
       {
         "file": "cafe.html",
-        "sha": "9b99113c5a351b314c743035b70c5b71f4c33d39"
+        "sha": "4906a0b4c259c4937a8eab5692ee9460a81c0537"
       }
     ],
-    "outputSha": "86893c5c4ce2cc7453ea40f1c3d42a839a598000",
+    "outputSha": "1c7ac0c12919cb511649cdeb68e49781277e9c0f",
     "input": "cafe.html",
     "output": [
       "cafe.html"
@@ -74,13 +74,41 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "0c1f02b5fa72469ae59535a63710e82de2ba1b21"
+        "sha": "d7053007dc6698f736a21286a7c7c905004b00c7"
       }
     ],
-    "outputSha": "95bac29413560f1a0ba975544d4a1bf7592f5cca",
+    "outputSha": "03557ede99931222475eaf64406c139ab65c1518",
     "input": "index.html",
     "output": [
       "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "sale-single.html",
+        "sha": "96ae95ce5eeff939ea77c9560053fde9d6f3cfec"
+      }
+    ],
+    "outputSha": "02bebc78f6b408a2f6d5140b182a35ce1306f3aa",
+    "input": "sale-single.html",
+    "output": [
+      "sale-single.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "sale.html",
+        "sha": "0d78e63b54afbcd2052c23284c68049be2733116"
+      }
+    ],
+    "outputSha": "b66ac46e0372a5f14849eabdb246471c0b6a0763",
+    "input": "sale.html",
+    "output": [
+      "sale.html"
     ]
   },
   {
@@ -98,31 +126,18 @@
     ]
   },
   {
-    "type": "::map::minify",
+    "type": "node-sass@4.10.0::map::minify",
     "inputSha": [
       {
-        "file": "sale-single.html",
-        "sha": "ccc8ac792fe2a6768f9b6968f89ac7e64f037415"
+        "file": "styles/main.scss",
+        "sha": "9dc47319657c0a6b6351ebcf1e7dd26c03b4c133"
       }
     ],
-    "outputSha": "cdf358de39d2fa7749c15115c477a5a6cb819cca",
-    "input": "sale-single.html",
+    "outputSha": "37ebdf4079fd0aa71885f32113160d054278fe43",
+    "input": "styles/main.scss",
     "output": [
-      "sale-single.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "sale.html",
-        "sha": "888ab1805635c9dc4ba392dbccfde3472d350ec1"
-      }
-    ],
-    "outputSha": "a79cd92865d929a8518e86003a0520534fa025f5",
-    "input": "sale.html",
-    "output": [
-      "sale.html"
+      "styles/main.css.map",
+      "styles/main.css"
     ]
   },
   {
@@ -130,29 +145,14 @@
     "inputSha": [
       {
         "file": "scripts/main.js",
-        "sha": "867de127d38c8ed6508c62336a15789284c1b685"
+        "sha": "ed76679f6ef5ce7e21288e0ce4e65cbd3d6aae71"
       }
     ],
-    "outputSha": "8d7f178ccf7e82932161520ce0feb80c8d80c8aa",
+    "outputSha": "ab9678c5d85aa6bd45595d88229a9ff4570a27d3",
     "input": "scripts/main.js",
     "output": [
       "scripts/main.js.map",
       "scripts/main.js"
-    ]
-  },
-  {
-    "type": "node-sass@4.10.0::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/main.scss",
-        "sha": "4dd2469c36dd5412b3c41963de21c3c3d63665b5"
-      }
-    ],
-    "outputSha": "d2d91e47e7d7aa88eb0180e69f7e83d72959ea53",
-    "input": "styles/main.scss",
-    "output": [
-      "styles/main.css.map",
-      "styles/main.css"
     ]
   }
 ]

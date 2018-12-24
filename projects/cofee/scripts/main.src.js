@@ -1,3 +1,4 @@
+$.fancybox.defaults.animationEffect = "zoom-in-out";
 
   $('#mobile-toggler').click(function(e){
     $(this).toggleClass('open');

@@ -97,6 +97,67 @@ p {
   }
 }
 
+.popup-content {
+  display: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel]
+{
+  display: block;
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  box-sizing: border-box;
+  height: 45px;
+  padding: 20px;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+
+  &:focus {
+    border-color: $orange;
+  }
+}
+
+textarea {
+  resize: none;
+  min-height: 110px;
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  box-sizing: border-box;
+  padding: 20px;
+  transition: all 0.3s;
+
+  &:focus {
+    border-color: $orange;
+  }
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.popup-content  {
+  .button {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
 
 .product-container {
   // max-width: 263px;
